@@ -16,7 +16,7 @@ interface Aircraft {
 const bushPlanes: Aircraft[] = [
   {
     name: "Cessna 208 Caravan",
-    image: "/placeholder.svg",
+    image: "/images/aircraft/c208-caravan-exterior.jpeg",
     description:
       "Single engine non pressurized turbo prop. Mostly referred to as the African donkey, because of its capability to operate in dirty airstrips, high density altitudes and short field performance. The normal commuter Caravan takes up to 12 seats and the EXECUTIVE caravan takes up to 8 seats.",
     specs: [
