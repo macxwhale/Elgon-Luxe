@@ -70,7 +70,10 @@ const bushPlanes: Aircraft[] = [
 const businessJets: Aircraft[] = [
   {
     name: "Cessna Citation Excel C560",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/citation-excel-c560-exterior.jpg",
+      "/images/aircraft/citation-excel-c560-interior.jpg",
+    ],
     description:
       "The Cessna Citation Excel 560 is a popular business jet known for its mid-cabin comfort and light-jet operating flexibility. It's a versatile aircraft, capable of operating from shorter runways while offering a stand-up cabin, making it a popular choice for various missions.",
     specs: [
