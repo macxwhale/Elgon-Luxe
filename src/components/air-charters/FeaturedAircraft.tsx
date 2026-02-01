@@ -203,7 +203,10 @@ const businessJets: Aircraft[] = [
   },
   {
     name: "Gulfstream G600",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/gulfstream-g600-exterior.jpg",
+      "/images/aircraft/gulfstream-g600-interior.jpg",
+    ],
     description:
       "The Gulfstream G600 boasts a remarkable combination of speed and range, spacious cabin and a new level of comfort. The aircraft features up to four living areas, allowing for a flexible configuration that suits your needs—be it for work, dining, entertainment, or rest.",
     specs: [
