@@ -135,7 +135,10 @@ const businessJets: Aircraft[] = [
   },
   {
     name: "Bombardier Global 7500",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/global-7500-exterior.jpg",
+      "/images/aircraft/global-7500-interior.jpg",
+    ],
     description:
       "The Bombardier Global 7500 is a long-range business jet known for its speed, range, and luxurious cabin. It can operate in and out of shorter runways than many other aircraft in its class, providing access to a wider range of airports. A top-of-the-line business jet combining exceptional performance with luxury.",
     specs: [
