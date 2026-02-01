@@ -39,7 +39,10 @@ const bushPlanes: Aircraft[] = [
   },
   {
     name: "King Air B200",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/king-air-b200-exterior.jpg",
+      "/images/aircraft/king-air-b200-interior.jpg",
+    ],
     description:
       "This is a TWIN ENGINE turbo prop pressurized aircraft. It's versatile in bush flying and power. Higher ceiling ensures smooth flight with balanced atmospheric pressure and oxygen levels.",
     specs: [
