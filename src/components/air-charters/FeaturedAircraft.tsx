@@ -234,7 +234,10 @@ const businessJets: Aircraft[] = [
   },
   {
     name: "Gulfstream G400",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/gulfstream-g400-exterior.jpg",
+      "/images/aircraft/gulfstream-g400-interior.jpg",
+    ],
     description:
       "The Gulfstream G400 is designed for long-range flights. The cabin is designed for comfort and flexibility, with customizable floor plans and a large forward galley. It offers a blend of performance, comfort, and technology, making it suitable for various mission profiles.",
     specs: [
