@@ -186,7 +186,10 @@ const businessJets: Aircraft[] = [
   },
   {
     name: "Bombardier Global Express",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/global-express-exterior.jpg",
+      "/images/aircraft/global-express-interior.jpeg",
+    ],
     description:
       "Bombardier Global Express is a popular choice for those seeking a high-performance, long-range business jet with a focus on comfort and luxury. It was designed for luxury travel, with cabin configurations offering a variety of seating and living spaces.",
     specs: [
