@@ -53,7 +53,10 @@ const bushPlanes: Aircraft[] = [
   },
   {
     name: "Pilatus PC-12",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/pilatus-pc12-exterior.jpg",
+      "/images/aircraft/pilatus-pc12-interior.jpg",
+    ],
     description:
       "A popular single-engine Pressurized turboprop aircraft, known for its versatility, reliability, and performance. It's a popular choice for private charters, air ambulance services, and special missions due to its ability to operate from short and unpaved airstrips while offering a comfortable cabin.",
     specs: [
