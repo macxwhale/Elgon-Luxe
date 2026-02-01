@@ -220,7 +220,10 @@ const businessJets: Aircraft[] = [
   },
   {
     name: "Gulfstream G500",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/gulfstream-g500-exterior.jpg",
+      "/images/aircraft/gulfstream-g500-interior.jpg",
+    ],
     description:
       "The Gulfstream G500 is a long-range business jet known for its performance and advanced technology. It features a spacious cabin with three living areas, advanced avionics, and powerful engines. The aircraft offers a high level of comfort with reclining seats, a full galley, and a private lavatory.",
     specs: [
