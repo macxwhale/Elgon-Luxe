@@ -149,7 +149,10 @@ const businessJets: Aircraft[] = [
   },
   {
     name: "Bombardier Global 6500",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/global-6500-exterior.jpg",
+      "/images/aircraft/global-6500-interior.jpeg",
+    ],
     description:
       "The Bombardier Global 6500 is an ultra-long-range business jet known for its spacious cabin, advanced technology, and impressive performance capabilities. It offers a luxurious travel experience with a range of features designed for comfort and efficiency.",
     specs: [
