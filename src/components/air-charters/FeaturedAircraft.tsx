@@ -93,7 +93,10 @@ const businessJets: Aircraft[] = [
   },
   {
     name: "Pilatus PC-24",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/pilatus-pc24-exterior.jpg",
+      "/images/aircraft/pilatus-pc24-interior.jpg",
+    ],
     description:
       'Pilatus bills the PC-24 as the "Super Versatile Jet" in recognition of its above average performance on short and unpaved runways. The short take-off and landing performance matches that of an advanced turboprop, giving it the capability of operation on both paved and unimproved surfaces, allowing it access to as many as 21,000 airports worldwide.',
     specs: [
