@@ -112,7 +112,10 @@ const businessJets: Aircraft[] = [
   },
   {
     name: "Bombardier Challenger 650",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/challenger-650-exterior.jpg",
+      "/images/aircraft/challenger-650-interior.jpg",
+    ],
     description:
       "The Bombardier Challenger 650 is a business jet known for its transcontinental range and luxurious, spacious cabin. It's a popular choice for private and executive travel, offering a blend of performance, comfort, and advanced technology.",
     specs: [
