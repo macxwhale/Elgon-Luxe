@@ -98,7 +98,10 @@ const businessJets: Aircraft[] = [
   },
   {
     name: "Challenger 3500",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/challenger-3500-exterior.jpg",
+      "/images/aircraft/challenger-3500-interior.jpg",
+    ],
     description:
       "The Bombardier Challenger 3500 is a cutting-edge super-midsize business jet featuring the most technologically advanced cabin in its class, introducing productivity-enhancing features such as the industry's first voice-controlled cabin and the revolutionary Nuage seat. It offers outstanding field performance and steep-approach capabilities.",
     specs: [
