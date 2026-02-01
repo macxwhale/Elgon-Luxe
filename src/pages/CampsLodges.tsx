@@ -12,6 +12,79 @@ interface Lodge {
   image: string;
 }
 
+const kenyaLodges: Lodge[] = [
+  {
+    name: "JW Marriott Masai Mara",
+    location: "Masai Mara, Kenya",
+    description:
+      "JW Marriott Masai Mara Lodge marks the debut of the first Luxury Safari Lodge in the brand portfolio. Overlooking the Talek River and the Masai Mara National Reserve, this safari hotel features 24 luxurious tented suites, all with their own private outdoor Jacuzzi tub and deck. Guest experiences include meals from our JW Garden, bush meals during Game Drives, Canon photography studio, spa by JW, fitness center and outdoor pool.",
+    image: "/images/lodges/jw-marriott-masai-mara.jpg",
+  },
+  {
+    name: "Ishara Mara Camp",
+    location: "Masai Mara National Reserve, Kenya",
+    description:
+      "Nestled within the heart of Kenya's Masai Mara National Reserve is Ishara, an enchanting paradise that beckons with the promise of unforgettable experiences. More than a luxury safari destination, Ishara is a feeling, an invitation from nature itself to embrace each moment as a sign.",
+    image: "/images/lodges/ishara-mara-camp.jpg",
+  },
+  {
+    name: "Mahali Mzuri",
+    location: "Olare Motorogi Conservancy, Kenya",
+    description:
+      "Sir Richard Branson's Kenyan safari camp. Located in the world-famous Maasai Mara ecosystem in the path of the annual Great Migration, the camp is within the Olare Motorogi Conservancy. With endless opportunities for game viewing, you can sit back and let the wildlife come to you. Each of the 12 luxury tents, along with the dining, bar, and lounge areas, blends refined comfort with sweeping views of the plains.",
+    image: "/images/lodges/mahali-mzuri.jpg",
+  },
+  {
+    name: "The Ritz-Carlton, Masai Mara",
+    location: "Masai Mara National Reserve, Kenya",
+    description:
+      "Elevated among lush trees in the heart of the Masai Mara National Reserve, The Ritz-Carlton, Masai Mara introduces its legendary service to a revered safari destination. Sustainably designed in harmony with nature, 20 suites feature private decks, plunge pools, personalized butler service and stunning views. Awaken with a profound sense of nature's awe as you witness the mesmerizing Great Migration.",
+    image: "/images/lodges/ritz-carlton-masai-mara.jpg",
+  },
+  {
+    name: "Angama Amboseli",
+    location: "Kimana Sanctuary, Kenya",
+    description:
+      "An intimate lodge in the heart of Kimana Sanctuary, Kenya's first community-owned conservancy, renowned for its lush landscape and remarkable density of wildlife — along with its famed backdrop, Mount Kilimanjaro, the highest peak in Africa. Set within a Fever Tree forest where some of Africa's last Super Tuskers roam, Angama Amboseli is a gentle start or finish to any East African safari.",
+    image: "/images/lodges/angama-amboseli.jpg",
+  },
+  {
+    name: "Tawi Lodge",
+    location: "Amboseli, Kenya",
+    description:
+      "Set in the heart of its own 3,000 acre private conservancy and in one of the richest game areas in Kenya. Tawi Lodge is an eco award winning lodge, combining unpretentious comfort with subtle accents of style coupled with traditional East African hospitality.",
+    image: "/images/lodges/tawi-lodge-amboseli.jpg",
+  },
+  {
+    name: "Finch Hattons Safari Camp",
+    location: "Tsavo National Park, Kenya",
+    description:
+      "Set in pristine wilderness at the foot of the scenic Chyulu Hills in Kenya's largest and oldest national park Tsavo, Finch Hattons Luxury Safari Camp is the latest addition to Virgin Limited Edition family. With 17 luxurious tented suites, a stay here promises an authentic journey into the heart of southeast Kenya.",
+    image: "/images/lodges/finch-hattons-tsavo.jpg",
+  },
+  {
+    name: "Sirikoi Lodge",
+    location: "Lewa Wildlife Conservancy, Kenya",
+    description:
+      "Family-founded and owned, exclusive and charming, Sirikoi offers luxury and high level of service, yet still welcoming, comfortable and unpretentious. Its four luxury tents, Sirikoi Cottage and private Sirikoi House, are perfectly positioned along spring-fed streams and wetlands, visited day and night by large numbers of wildlife.",
+    image: "/images/lodges/sirikoi-lodge-lewa.jpg",
+  },
+  {
+    name: "Almanara Luxury Villas",
+    location: "Diani Beach, Kenya",
+    description:
+      "Nestled along Kenya's stunning east coast, Diani Beach – a pristine stretch of white sand that meets the crystal-clear waters of the Indian Ocean. Each villa is fully serviced, with a personal chef and maid at your disposal, allowing you to experience the perfect blend of five-star luxury and authentic coastal charm on one of Africa's most breathtaking beaches.",
+    image: "/images/lodges/almanara-diani-beach.jpg",
+  },
+  {
+    name: "Segera Retreat",
+    location: "Laikipia, Kenya",
+    description:
+      "Segera Retreat is a splash of green in a golden savannah. With a legacy of true Kenyan ranch life set against the filmic grasslands that landscape the foothills of Mount Kenya, Segera has been rejuvenated into a fertile home for conservation, community, culture and commerce. Behind a living cactus boma, the lush gardens flicker with sunbirds and inspire with sculptures, pools and elegant thatched villas.",
+    image: "/images/lodges/segera-retreat-laikipia.jpg",
+  },
+];
+
 const ugandaLodges: Lodge[] = [
   {
     name: "Gorilla Forest Lodge",
@@ -262,6 +335,7 @@ const southAfricaLodges: Lodge[] = [
 ];
 
 const countries = [
+  { id: "kenya", label: "Kenya", lodges: kenyaLodges },
   { id: "uganda", label: "Uganda", lodges: ugandaLodges },
   { id: "tanzania", label: "Tanzania", lodges: tanzaniaLodges },
   { id: "rwanda", label: "Rwanda", lodges: rwandaLodges },
@@ -353,7 +427,7 @@ const CampsLodges = () => {
             </p>
           </div>
 
-          <Tabs defaultValue="uganda" className="w-full">
+          <Tabs defaultValue="kenya" className="w-full">
             <TabsList className="flex flex-wrap justify-center gap-2 mb-10 bg-transparent h-auto">
               {countries.map((country) => (
                 <TabsTrigger
