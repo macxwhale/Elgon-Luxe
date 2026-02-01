@@ -163,7 +163,10 @@ const businessJets: Aircraft[] = [
   },
   {
     name: "Bombardier Global 5500",
-    images: ["/placeholder.svg"],
+    images: [
+      "/images/aircraft/global-5500-exterior.jpg",
+      "/images/aircraft/global-5500-interior.jpg",
+    ],
     description:
       "The Bombardier Global 5500 is an ultra-long-range business jet known for its spacious cabin, advanced technology, and impressive performance. It combines long-range capability with a comfortable and technologically advanced cabin.",
     specs: [
