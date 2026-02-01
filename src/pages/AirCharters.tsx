@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/ui/HeroSection";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Check, Plane, Clock, Shield, MapPin } from "lucide-react";
+import { FeaturedAircraft } from "@/components/air-charters/FeaturedAircraft";
 
 const features = [
   {
@@ -104,8 +105,11 @@ const AirCharters = () => {
         </div>
       </section>
 
+      {/* Featured Aircraft */}
+      <FeaturedAircraft />
+
       {/* Features Grid */}
-      <section className="py-20 lg:py-28 bg-secondary">
+      <section className="py-20 lg:py-28 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="font-serif text-3xl md:text-4xl font-medium text-foreground mb-4">
